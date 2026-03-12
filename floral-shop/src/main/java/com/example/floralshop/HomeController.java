@@ -16,14 +16,18 @@ public class HomeController {
         return "about";
     }
 
-<<<<<<< HEAD
     @GetMapping("/specials")
     public String specials() {
         return "specials";
-=======
+    }
+
     @GetMapping("/bouquets")
     public String bouquets() {
         return "bouquets";
->>>>>>> 078390f10a1e9d0286d0d5d3fb49c0153892e2c3
+    }
+
+    @GetMapping("/contacts")
+    public String contacts() {
+        return "contacts";
     }
 }
