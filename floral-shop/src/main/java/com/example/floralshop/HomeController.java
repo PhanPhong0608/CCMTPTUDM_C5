@@ -30,4 +30,9 @@ public class HomeController {
     public String contacts() {
         return "contacts";
     }
+    
+    @GetMapping("/news")
+    public String news() {
+        return "news";
+    }
 }
