@@ -23,14 +23,14 @@ public class HomeController {
 
     @GetMapping("/bouquets")
     public String bouquets() {
-        return "bouquets";
+        return "bouquets"; 
     }
 
     @GetMapping("/contacts")
     public String contacts() {
         return "contacts";
     }
-    
+
     @GetMapping("/news")
     public String news() {
         return "news";
